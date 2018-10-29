@@ -1,4 +1,4 @@
-package com.lemarche.tolaroid;
+package com.tolaroid.wekwek;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "LeMarche";
+        return "FirebaseDB";
     }
 }

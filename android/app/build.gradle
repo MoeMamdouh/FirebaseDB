@@ -98,7 +98,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.lemarche.tolaroid"
+        applicationId "com.tolaroid.wekwek"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -150,7 +150,10 @@ android {
 }
 
 dependencies {
-    compile project(':react-native-firebase')
+    implementation project(':react-native-firebase')
+    implementation "com.google.android.gms:play-services-base:15.0.1"
+    implementation "com.google.firebase:firebase-core:16.0.3"
+
     compile project(':rn-fetch-blob')
     compile project(':react-native-share')
     implementation fileTree(dir: "libs", include: ["*.jar"])
@@ -164,3 +167,5 @@ task copyDownloadableDepsToLibs(type: Copy) {
     from configurations.compile
     into 'libs'
 }
+
+apply plugin: 'com.google.gms.google-services'

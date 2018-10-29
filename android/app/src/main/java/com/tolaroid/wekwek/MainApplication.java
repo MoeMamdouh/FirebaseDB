@@ -1,4 +1,4 @@
-package com.lemarche.tolaroid;
+package com.tolaroid.wekwek;
 
 import android.app.Application;
 
