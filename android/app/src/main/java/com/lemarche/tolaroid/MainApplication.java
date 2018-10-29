@@ -3,6 +3,7 @@ package com.lemarche.tolaroid;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import io.invertase.firebase.RNFirebasePackage;
 import com.RNFetchBlob.RNFetchBlobPackage;
 import cl.json.RNSharePackage;
 import com.facebook.react.ReactNativeHost;
@@ -23,7 +24,8 @@ public class MainApplication extends Application implements ReactApplication {
 
     @Override
     protected List<ReactPackage> getPackages() {
-      return Arrays.<ReactPackage>asList(new MainReactPackage(), new RNFetchBlobPackage(), new RNSharePackage());
+      return Arrays.<ReactPackage>asList(new MainReactPackage(),
+            new RNFirebasePackage(), new RNFetchBlobPackage(), new RNSharePackage());
     }
 
     @Override

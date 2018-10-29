@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -21,7 +20,6 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		6A146468F5614938ACA75587 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E09FFBA2C9400C822333E9 /* libRNFirebase.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		D019A708ADD04C7B81CD43E5 /* libRNFetchBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85950325D1844AB1898BFC44 /* libRNFetchBlob.a */; };
@@ -30,6 +28,7 @@
 		DDD79A7D216BEE63002CDA16 /* libART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD79A53216BEE47002CDA16 /* libART.a */; };
 		DDF9F0F2216C73D300E3F96E /* libRCTCameraRoll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF9F0F1216C73A000E3F96E /* libRCTCameraRoll.a */; };
 		E2BFCFD794A14D7B8169C977 /* libRNShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E2069054C04969BB3C84C3 /* libRNShare.a */; };
+		E200B4EC59254E49B77F6C08 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFE9B87595B40B3AD51D723 /* libRNFirebase.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -299,13 +298,6 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNShare;
 		};
-		DDB30E762187656300705849 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3338BD2B9DA54E21A8B8F29F /* RNFirebase.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RNFirebase;
-		};
 		DDD79A52216BEE47002CDA16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DDD79A4D216BEE47002CDA16 /* ART.xcodeproj */;
@@ -355,10 +347,8 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FirebaseDB/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FirebaseDB/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		24E09FFBA2C9400C822333E9 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		314C8866D9E51A4FD1206C87 /* libPods-FirebaseDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirebaseDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3338BD2B9DA54E21A8B8F29F /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 		3DF1BE22F773D7B326C367D7 /* Pods-FirebaseDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDB/Pods-FirebaseDB.release.xcconfig"; sourceTree = "<group>"; };
 		4F2A1A8CBD2469B920631180 /* Pods-FirebaseDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDB/Pods-FirebaseDB.debug.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
@@ -372,6 +362,8 @@
 		DDF9F0EC216C73A000E3F96E /* RCTCameraRoll.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTCameraRoll.xcodeproj; path = "../node_modules/react-native/Libraries/CameraRoll/RCTCameraRoll.xcodeproj"; sourceTree = "<group>"; };
 		F4E2069054C04969BB3C84C3 /* libRNShare.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNShare.a; sourceTree = "<group>"; };
 		FB5D17E88D5D49EC831D1E00 /* RNFetchBlob.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFetchBlob.xcodeproj; path = "../node_modules/rn-fetch-blob/ios/RNFetchBlob.xcodeproj"; sourceTree = "<group>"; };
+		5A5D9DE804BA42869737FE23 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; name = "RNFirebase.xcodeproj"; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		8BFE9B87595B40B3AD51D723 /* libRNFirebase.a */ = {isa = PBXFileReference; name = "libRNFirebase.a"; path = "libRNFirebase.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,7 +388,7 @@
 				E2BFCFD794A14D7B8169C977 /* libRNShare.a in Frameworks */,
 				D019A708ADD04C7B81CD43E5 /* libRNFetchBlob.a in Frameworks */,
 				D980AEBAC508C9650C299D03 /* libPods-FirebaseDB.a in Frameworks */,
-				6A146468F5614938ACA75587 /* libRNFirebase.a in Frameworks */,
+				E200B4EC59254E49B77F6C08 /* libRNFirebase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,7 +558,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				BF1AA23110C44AD9AD1C6664 /* RNShare.xcodeproj */,
 				FB5D17E88D5D49EC831D1E00 /* RNFetchBlob.xcodeproj */,
-				3338BD2B9DA54E21A8B8F29F /* RNFirebase.xcodeproj */,
+				5A5D9DE804BA42869737FE23 /* RNFirebase.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -636,14 +628,6 @@
 			isa = PBXGroup;
 			children = (
 				DD41856A216BB70A00147BE6 /* libRNShare.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DDB30E732187656300705849 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DDB30E772187656300705849 /* libRNFirebase.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -780,10 +764,6 @@
 				{
 					ProductGroup = DDF9F0D5216C047100E3F96E /* Products */;
 					ProjectRef = FB5D17E88D5D49EC831D1E00 /* RNFetchBlob.xcodeproj */;
-				},
-				{
-					ProductGroup = DDB30E732187656300705849 /* Products */;
-					ProjectRef = 3338BD2B9DA54E21A8B8F29F /* RNFirebase.xcodeproj */;
 				},
 				{
 					ProductGroup = DD418563216BB70A00147BE6 /* Products */;
@@ -1062,13 +1042,6 @@
 			fileType = archive.ar;
 			path = libRNShare.a;
 			remoteRef = DD418569216BB70A00147BE6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DDB30E772187656300705849 /* libRNFirebase.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNFirebase.a;
-			remoteRef = DDB30E762187656300705849 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		DDD79A53216BEE47002CDA16 /* libART.a */ = {

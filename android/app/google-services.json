@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "292648313184",
+    "firebase_url": "https://tolaroid-wekwek.firebaseio.com",
+    "project_id": "tolaroid-wekwek",
+    "storage_bucket": "tolaroid-wekwek.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292648313184:android:32b4e9a6dbf45bc1",
+        "android_client_info": {
+          "package_name": "com.tolaroid.wekwek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292648313184-srv6ijlkpc6jc6kbjamodi1d9avtd6i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0sg1Dmfj7xZtXHUti2SPIbqESgTI2rAc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
