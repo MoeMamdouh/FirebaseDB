@@ -24,6 +24,7 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		D019A708ADD04C7B81CD43E5 /* libRNFetchBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85950325D1844AB1898BFC44 /* libRNFetchBlob.a */; };
+		D980AEBAC508C9650C299D03 /* libPods-FirebaseDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 314C8866D9E51A4FD1206C87 /* libPods-FirebaseDB.a */; };
 		DDD79A7D216BEE63002CDA16 /* libART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD79A53216BEE47002CDA16 /* libART.a */; };
 		DDF9F0F2216C73D300E3F96E /* libRCTCameraRoll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF9F0F1216C73A000E3F96E /* libRCTCameraRoll.a */; };
 		E2BFCFD794A14D7B8169C977 /* libRNShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E2069054C04969BB3C84C3 /* libRNShare.a */; };
@@ -346,6 +347,9 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FirebaseDB/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		314C8866D9E51A4FD1206C87 /* libPods-FirebaseDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirebaseDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF1BE22F773D7B326C367D7 /* Pods-FirebaseDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDB/Pods-FirebaseDB.release.xcconfig"; sourceTree = "<group>"; };
+		4F2A1A8CBD2469B920631180 /* Pods-FirebaseDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDB/Pods-FirebaseDB.debug.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -379,6 +383,7 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				E2BFCFD794A14D7B8169C977 /* libRNShare.a in Frameworks */,
 				D019A708ADD04C7B81CD43E5 /* libRNFetchBlob.a in Frameworks */,
+				D980AEBAC508C9650C299D03 /* libPods-FirebaseDB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +510,7 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				314C8866D9E51A4FD1206C87 /* libPods-FirebaseDB.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -568,6 +574,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				DD41853B216BB70900147BE6 /* Recovered References */,
+				845EFFB17143E335CDB801D1 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -580,6 +587,15 @@
 				13B07F961A680F5B00A75B9A /* FirebaseDB.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		845EFFB17143E335CDB801D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F2A1A8CBD2469B920631180 /* Pods-FirebaseDB.debug.xcconfig */,
+				3DF1BE22F773D7B326C367D7 /* Pods-FirebaseDB.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
@@ -640,6 +656,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FirebaseDB" */;
 			buildPhases = (
+				A5BFF7D07A97A74AB9647528 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
@@ -1076,6 +1093,24 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		A5BFF7D07A97A74AB9647528 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1105,6 +1140,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2A1A8CBD2469B920631180 /* Pods-FirebaseDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1131,6 +1167,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF1BE22F773D7B326C367D7 /* Pods-FirebaseDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
