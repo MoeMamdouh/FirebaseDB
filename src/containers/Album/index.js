@@ -17,6 +17,15 @@ export default class Album extends Component<Props> {
       .then(user => {
         console.log('user', user);
       });
+
+    firebase.database().goOnline();
+    const serverTime = firebase.database().getServerTime();
+    console.log('serverTime ', serverTime);
+
+    const allData = firebase.database().ref('users');
+    const data = firebase.database().ref();
+    console.log('allData ', allData);
+    console.log('data ', data);
   }
 
   componentWillUnmount() {}
